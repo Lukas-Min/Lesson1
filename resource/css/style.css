@@ -1,0 +1,47 @@
+*{
+    padding: 5;
+    margin: 0;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+}
+.logo{
+    height: 60px;
+    filter: invert(100%);
+}
+
+.header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../img/barber.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery{
+    /* min-height: 100vh; */
+    overflow: hidden;
+}
+
+.card1{
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
+.bg-custom{
+    background-color: black ;
+}
+.about_us{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../img/p4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer{
+    min-height: 5vh;
+    background-color: black;
+}
+
+#inquiry{
+    resize: none;
+}
